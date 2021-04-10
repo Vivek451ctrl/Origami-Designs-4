@@ -1,0 +1,56 @@
+
+.div{
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid img{
+    border: 2px solid rgb(243, 12, 12);
+    background-color: black;
+    border-radius: 50px;
+    margin:auto;
+    padding: auto;
+}
+.origami{
+    border-radius: 20px;
+    background-color: rgb(12, 34, 233);
+    margin: 25px;
+    padding: 30px;
+    width: 310px;
+    font-family: fantasy;
+    scale: 0.5;
+    position: relative; 
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(16, 211, 32);
+}
+.body{
+    margin: 0px;
+ background-image: url(https://image.shutterstock.com/image-vector/many-stylish-modern-nice-looking-260nw-1130715725.jpg);
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:#ffac4d
+}
+a:visited{
+    color:#6f62df
+}
+  p,li,dt,h3{
+    color: tomato;
+    text-align: center;
+}  
